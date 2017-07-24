@@ -5,4 +5,5 @@ PARAMS=`sed "s/DATE/$DATE/" <<EOF
 $*
 EOF`
 
+echo $PARAMS
 $PARAMS
